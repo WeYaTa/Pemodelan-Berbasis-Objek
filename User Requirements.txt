@@ -1,0 +1,12 @@
+User Requirements:
+1.	User dapat melihat penawaran jasa apa saja yang tersedia di dalam platform yang telah dibuat
+2.	User hanya dapat menyewa jasa yang telah tersedia jika sudah merupakan member
+3.	User dapat melakukan sign up jika belum mempunyai akun platform
+4.	User dapat melakukan sign in jika sudah mempunyai akun platform
+5.	User hanya dapat memasang iklan jasa yang diperlukan di dalam platform
+6.	User tidak dapat mencari jasa dari user lain dan memulai proyek
+7.	Freelancer hanya dapat mencari job pemasangan iklan dari user
+8.	Freelancer tidak dapat memasang iklan jasa yang diperlukan di dalam platform
+9.	Setelah user memasang iklan jasa, freelancer dalam platform dapat mencari dan menyesuaikan jasa yang mereka tawarkan jika menemukan ada user yang sudah memasang iklan jasa yang diperlukan
+10.	User dapat berkomunikasi dengan freelancer yang berhubungan dengan jasa yang dicari, mendeskripsikan jasa yang diperlukan secara keseluruhan dan detil, penawaran harga dan tanggal yang diperlukan untuk diserahkan
+11.	Jika user dan freelancer sudah menyelesaikan proyek yang sedang berjalan maka user dapat melakukan transaksi dengan freelancer yang kemudian mengakhiri proyek. 
