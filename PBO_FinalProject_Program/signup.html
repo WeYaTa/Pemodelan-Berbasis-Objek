@@ -1,0 +1,105 @@
+<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-center">
+						<div class="banner-content col-lg-12">
+							<h1 class="text-white">
+								<br><br><br><br>
+								<span style="font-size: 100px">SIGN UP</span>				
+							</h1>	
+							<form   method = "post" class="serach-form-area">
+								<br>
+								<div class="row justify-content-center form-wrap">
+									<div class="justify-content-center col-lg-10 form-cols">
+										<br>
+										<div style="color: white; font-size: 20px">Name:</div><br>
+											<input type="text" class="form-control justify-content-center" style="text-align: center; height:50px; font-size: 15px" name="name" placeholder="Full Name" required>
+											<br>
+										</div>
+									<br>
+									<div class="justify-content-center col-lg-10 form-cols"> <br>
+										<div style="color: white; font-size: 20px">Username:</div><br>
+											<input type="text" class="form-control justify-content-center" style="text-align: center; height:50px; font-size: 15px" name="username" required placeholder="Username for Login & Your ID">
+											<br>
+										</div>
+									<div class="justify-content-center col-lg-5 form-cols"><br>
+										<div style="color: white; font-size: 20px">Password:</div><br>
+										<input type="text" class="form-control" style="text-align: center; height:50px; font-size: 15px" name="password" placeholder="Password"required>
+									</div>
+									<br> <br>
+									<div class="justify-content-center col-lg-5 form-cols"> <br>
+										<div style="color: white; font-size: 20px">Email:</div><br>
+										<input type="email" class="form-control" style="text-align: center; height:50px; font-size: 15px" name="email" placeholder="Email"required>										
+									</div>
+									<br>
+									<div class="justify-content-center col-lg-10 form-cols"> <br> <br>
+										<div style="color: white; font-size: 20px">Institution:</div><br>
+										<input type="text" class="form-control justify-content-center" style="text-align: center; height:50px; font-size: 15px" id="institution" name="institution" required placeholder="Institution" disabled>										
+									</div>
+									<br>
+									<div class="justify-content-center col-lg-10 form-cols"> <br> <br>
+										<div style="color: white; font-size: 20px">Experience:</div><br>
+										<input type="text" class="form-control justify-content-center" style="text-align: center; height:50px; font-size: 15px" id = "experience" name="experience" required placeholder="Experience (Ex: Design, Script Writing, etc)" disabled>										
+									</div>
+									<br>
+									<div class="justify-content-center col-lg-5 form-cols"> <br> <br> <br>
+										<input type="radio" class="form-control" style="text-align: center; height:20px; font-size: 15px" id = "fl" name="check" value="Freelancer" onclick = "ganti();">
+										<br>										
+										<div style="color: white; font-size: 20px">Freelancer</div><br>
+										</div>
+									<br>
+									<div class="justify-content-center col-lg-5 form-cols"> <br> <br><br>
+										<input type="radio" class="form-control" style="text-align: center; height:20px; font-size: 15px" id = "user" name="check" value="User" onclick = "ganti();">										
+										<br>
+										<div style="color: white; font-size: 20px">User</div><br>
+										</div>
+									<br>
+									
+									<div class="col-lg-5 form-cols">
+										<br><br>
+											<button type="submit" class="btn btn-info" name="signup">
+									      <span style="font-size:30px"> Sign Up</span>
+									    </button>
+										<br>
+									</div>
+								</div>
+							</form>	
+						</div>											
+					</div>
+				</div>
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+									<br>				
+				<br>				
+			</section>
+
+			<script >
+			function ganti(){
+				
+				if(document.getElementById("fl").checked){
+					document.getElementById("institution").setAttribute("disabled","");
+					document.getElementById("experience").removeAttribute("disabled");
+				}else if(document.getElementById("user").checked){
+					document.getElementById("institution").removeAttribute("disabled");
+					document.getElementById("experience").setAttribute("disabled","");
+				}	
+			}
+			
+			</script>
+			
